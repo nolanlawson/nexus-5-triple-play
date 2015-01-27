@@ -3,7 +3,32 @@ The Nexus 5 triple-play
 
 These are the steps I used to get triple-boot working on my phone. Use at your own risk.
 
+When your device starts up, you have a choise of 3 OSes. It will automatically boot into the first one after 5 seconds.
+
 These steps will delete all the data on your phone, so back up whatever you need backed up.
+
+Screenshots
+---
+
+### The triple-boot
+
+<img src="trip-boot.jpg" width=200/>
+
+### Stock Lollipop
+
+<img src="lolli1.png" width=200/>
+<img src="lolli2.png" width=200/>
+
+### CyanogenMod 11 (Kitkat)
+
+<img src="kitkat2.png" width=200/>
+<img src="kitkat1.png" width=200/>
+
+### Firefox OS 2.2.0
+
+<img src="fxos1.png" width=200/>
+<img src="fxos2.png" width=200/>
+
 
 Flash stock lollipop
 ---------
