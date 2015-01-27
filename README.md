@@ -6,8 +6,8 @@ These are the steps I used to get triple-boot working on my phone. Use at your o
 When your device starts up, you have a choise of 3 OSes:
 
 * Stock Lollipop 5.0.1
-* CyanogenMod 11 (Kitakt)
-* Firefox OS 2.2
+* CyanogenMod 11 (Kitkat 4.4.4)
+* Firefox OS 2.2.0
 
 It will automatically boot into the first one after 5 seconds.
 
@@ -16,7 +16,7 @@ These steps will delete all the data on your phone, so back up whatever you need
 Screenshots
 ---
 
-### The triple-boot
+### The triple-play
 
 <img src="trip-boot.jpg" width=200/>
 
