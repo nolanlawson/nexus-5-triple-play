@@ -45,30 +45,21 @@ Run `adb reboot bootloader` on your device to reboot to the bootloader. (Or hold
 
 Extract the TGZ, run `./flash-all.sh`. It may take awhile.
 
-Root it
+Root it with ClockworkMod Recovery
 ----
-
-Get the CF-Auto-Root from [this page](http://autoroot.chainfire.eu/). Scroll down the page, look for "hammerhead," and download that one.
-
-Put your device back in bootloader mode. You might have to go into the phone's settings and tap the build number 5 times to enable the developer menu, then go to the developer menu, then choose "allow ADB debugging."
-
-Unzip it, run `chmod a+x root-mac.sh` so you can run the script, and then run `root-mac.sh`. Eventually you should see a red android on your screen.
-
-Fix the rooting
-----
-
-CF-Auto-Root had some bugs for me, so that it didn't actually give me root. Luckily ClockworkMod can fix this automatically. So install the ClockworkMod recovery and let it do its magic.
 
 Go to [the ClockworkMod home page](http://www.clockworkmod.com/rommanager), search for "nexus 5," and download the "recovery." I prefer not to use the "touch" recovery (i.e. you have to press the volume and power buttons to navigate the interface).
 
-Put your phone back in bootloader mode, and run `adb flash recovery recovery-clockwork-6.0.4.5-hammerhead.img`. Then use the volume and power buttons to reboot in recovery.
+Put your device back in bootloader mode. You might have to go into the phone's settings and tap the build number 5 times to enable the developer menu, then go to the developer menu, then choose "allow ADB debugging." Then you can do `adb reboot bootloader`.
 
-In the ClockworkMod interface, simply choose "reboot system." ClockworkMod will automatically detect that the root is invalid, and will offer to fix it. Say yes.
+While the phone is in bootloader mode, run `fastboot flash recovery recovery-clockwork-*-hammerhead.img`. Then press volume down and power to choose "Reboot recovery."
+
+In the ClockworkMod Recovery interface, simply choose "reboot system." ClockworkMod will automatically detect that the phone is not rooted, and will offer to root it. Say yes.
 
 Install MultiROM
 -------
 
-Go to Google Play and download MultiROM. Run it and follow all the instructions. Don't uncheck any boxes. Reboot into the new MultiROM recovery.
+Reboot, then go to Google Play and download MultiROM. Run it and follow all the instructions. Don't uncheck any boxes. Reboot into the new MultiROM recovery.
 
 Install Firefox OS and CyanogenMod 11
 ---------
