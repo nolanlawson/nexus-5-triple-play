@@ -61,7 +61,7 @@ CF-Auto-Root had some bugs for me, so that it didn't actually give me root. Luck
 
 Go to [the ClockworkMod home page](http://www.clockworkmod.com/rommanager), search for "nexus 5," and download the "recovery." I prefer not to use the "touch" recovery (i.e. you have to press the volume and power buttons to navigate the interface).
 
-Put your phone back in bootloader mode, and run `adb flash recovery recovery-clockwork-6.0.4.5-hammerhead.img`. Then use the volume and power buttons to reboot in recovery.
+Put your phone back in bootloader mode, and run `fastboot flash recovery recovery-clockwork-6.0.4.5-hammerhead.img`. Then use the volume and power buttons to reboot in recovery.
 
 In the ClockworkMod interface, simply choose "reboot system." ClockworkMod will automatically detect that the root is invalid, and will offer to fix it. Say yes.
 
